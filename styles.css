@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+:root{
+  --primary-color:#fdba74;
+  --black:#000;
+  --rose:#f43f5e;
+  --white:#f8fafc
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  padding: 0%;
+  margin: 0%;
+  }
+
+.navigation{
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.nav-pills{
+    text-align: center;
+}
+
+  /* lists */
+
+.list-non-bullet{
+    list-style: none;
+  }
+  
+  .list-inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+  }
+  
+  .link{
+    text-decoration: none;
+    color: var(--black);
+    padding: 0.5rem 1rem ;
+    margin: 1rem 0.5rem;
+  }
+
+  .link-active{
+    border: 0.1rem solid var(--rose) ;
+    border-radius: 0.5rem;
+    font-weight: bolder;
+  }
+
+  .header{
+    padding: 0 1rem;
+  }
+
+  .quiz-form{
+    padding: 0.5rem 1rem;
+  }
+
+  .container{
+    padding: 1rem 2rem;
+  }
+
+  input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+  }
+
+  .formula{
+    margin: 1rem;
+    font-weight: bolder;
+    font-size: larger;
+    border: solid 0.2rem var(--rose);
+    padding: 1rem;
+  }
+
+  .question-input{
+    margin: 1rem;
+    display: block;
+    padding: 0.5rem 5rem;
+    border: 0.1rem solid var(--rose);
+    outline: var(--white);
+    text-align: center;
+  }
+
+  #submit-button{
+    margin: 1rem;
+    padding: 0.5rem 1rem;
+    color: var(--black);
+    background-color: var(--primary-color);
+    border: 0.08rem solid var(--rose);
+    border-radius: 0.3rem;
+    outline: var(--white);
+  }
+
+  #output{
+    padding: 0.5rem 1rem;
+    font-size: larger;
+    font-weight: bolder;
+    color: var(--rose);
+    margin: 0 1rem;
+  }
+  
+  .footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--black);
+    border-top-right-radius: 1rem;
+  }
+  
+  .footer .link{
+    color:var(--black);
+  }
+  
+  .footer-header{
+    font-weight: bold;
+    font-size: larger;
+  }
