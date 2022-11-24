@@ -2,7 +2,13 @@ var quizForm = document.querySelector(".quiz-form");
 var submitButton = document.querySelector("#submit-button");
 var finalOutput = document.querySelector("#output");
 
-var rightAnswers = ["90°", "right angled"];
+var rightAnswers = [
+  "90°",
+  "right angled",
+  "180°",
+  "three",
+  "pythagoras theorem"
+];
 
 function calculateSum() {
   var score = 0;
